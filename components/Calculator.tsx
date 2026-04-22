@@ -1,4 +1,4 @@
-import { Colors } from "@/utils/colors";
+import { Colors } from "@/utils/Colors";
 import React, { useState } from "react";
 import { StyleSheet, Text, View } from "react-native";
 import Button from "./Button";
@@ -47,7 +47,7 @@ const Calculator = () => {
         }
 
         const handleBackspace = () => {
-            if (displayValue.length == 1) {
+            if (displayValue.length === 1) {
                 setDisplayValue("0");
 
             }else {

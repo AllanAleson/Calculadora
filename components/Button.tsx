@@ -1,6 +1,6 @@
 import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 import React from "react";
-import { Colors } from "@/utils/colors";
+import { Colors } from "@/utils/Colors";
 
 const Button = ({
     title,
@@ -30,7 +30,7 @@ const Button = ({
                 <Text 
                 style={{
                     fontSize: 34,
-                    color: type == 'number' ? Colors.black : Colors.white,
+                    color: type === 'number' ? Colors.black : Colors.white,
                 }}
                     >{title}
                 </Text>
